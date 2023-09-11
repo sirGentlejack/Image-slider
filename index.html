@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
@@ -7,12 +8,22 @@
   <title>Image Slider</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
   <h1 style="color:blue;margin: 10px;text-align: center; font-weight: bold">Image Slider</h1>
   <br /><br />
   <div class="wrapper" style="max-width: 100%;position: relative">
-    <img src="Images/img1.png" style="width:100%" />
+    <img class="mySlides" src="1.jpeg" style="width:100%" />
+    <img class="mySlides" src="2.jpeg" style="width:100%" />
+    <img class="mySlides" src="3.jpeg" style="width:100%" />
+    <img class="mySlides" src=" 4.jpeg" style="width:100%" />
+    <img class="mySlides" src=" 5.jpeg" style="width:100%" />
+    <img class="mySlides" src=" 6.jpeg" style="width:100%" />
+    <img class="mySlides" src="7.jpeg" style="width:100%" />
+    <a class="btn1" style="position:absolute;top:45%; left:5%" onclick="plusDivs(-1)"> <span id="btnl">&lt;</span></a>
+    <a class="btn2" style="position:absolute;top:45%; right:5%" onclick="plusDivs(1)"> <span id="btnr">&gt;</span></a>
   </div>
   <script src="main.js"></script>
 </body>
+
 </html>

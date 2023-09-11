@@ -1,3 +1,17 @@
-body {
-    font-size: 15pt;
+#btnl{
+  padding: 10px;
+  border-radius: 30px;
+  background-color: blue;
+}
+#btnr{
+  padding: 10px;
+  border-radius: 30px;
+  background-color: blue;
+}
+img{
+  width: 250px;
+  height: 450px;
+}
+.wrapper{
+  margin: 10px;
 }
