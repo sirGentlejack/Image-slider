@@ -2,16 +2,22 @@
   padding: 10px;
   border-radius: 30px;
   background-color: blue;
+  color: white;
 }
 #btnr{
   padding: 10px;
   border-radius: 30px;
   background-color: blue;
+  color: white;
 }
 img{
   width: 250px;
   height: 450px;
+  border: 3px dashed blue;
 }
 .wrapper{
   margin: 10px;
+}
+body{
+  background-color: whitesmoke;
 }
